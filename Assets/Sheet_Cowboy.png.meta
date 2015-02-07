@@ -1,0 +1,630 @@
+fileFormatVersion: 2
+guid: 109af79f0227c4ebda299206c2a9e639
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sheet_Cowboy_0
+    21300002: Sheet_Cowboy_1
+    21300004: Sheet_Cowboy_2
+    21300006: Sheet_Cowboy_3
+    21300008: Sheet_Cowboy_4
+    21300010: Sheet_Cowboy_5
+    21300012: Sheet_Cowboy_6
+    21300014: Sheet_Cowboy_7
+    21300016: Sheet_Cowboy_8
+    21300018: Sheet_Cowboy_9
+    21300020: Sheet_Cowboy_10
+    21300022: Sheet_Cowboy_11
+    21300024: Sheet_Cowboy_12
+    21300026: Sheet_Cowboy_13
+    21300028: Sheet_Cowboy_14
+    21300030: Sheet_Cowboy_15
+    21300032: Sheet_Cowboy_22
+    21300034: Sheet_Cowboy_30
+    21300036: Sheet_Cowboy_31
+    21300038: Sheet_Cowboy_32
+    21300040: Sheet_Cowboy_33
+    21300042: Sheet_Cowboy_34
+    21300044: Sheet_Cowboy_35
+    21300046: Sheet_Cowboy_36
+    21300048: Sheet_Cowboy_37
+    21300050: Sheet_Cowboy_38
+    21300052: Sheet_Cowboy_39
+    21300054: Sheet_Cowboy_40
+    21300056: Sheet_Cowboy_41
+    21300058: Sheet_Cowboy_42
+    21300060: Sheet_Cowboy_43
+    21300062: Sheet_Cowboy_44
+    21300064: Sheet_Cowboy_45
+    21300066: Sheet_Cowboy_46
+    21300068: Sheet_Cowboy_47
+    21300070: Sheet_Cowboy_48
+    21300072: Sheet_Cowboy_49
+    21300074: Sheet_Cowboy_50
+    21300076: Sheet_Cowboy_51
+    21300078: pistol_noArm
+    21300080: Sheet_Cowboy_53
+    21300082: Sheet_Cowboy_54
+    21300084: Sheet_Cowboy_55
+    21300086: Sheet_Cowboy_56
+    21300088: Sheet_Cowboy_57
+    21300090: Sheet_Cowboy_58
+    21300092: Sheet_Cowboy_59
+    21300094: Sheet_Cowboy_60
+    21300096: Sheet_Cowboy_61
+    21300098: Sheet_Cowboy_62
+    21300100: Sheet_Cowboy_68
+    21300102: Sheet_Cowboy_52
+    21300104: Sheet_Cowboy_53
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sheet_Cowboy_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 688
+        width: 49
+        height: 42
+      alignment: 9
+      pivot: {x: .296894789, y: -.0183396116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 688
+        width: 49
+        height: 42
+      alignment: 9
+      pivot: {x: .32228291, y: -.00352986646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 688
+        width: 49
+        height: 42
+      alignment: 9
+      pivot: {x: .296894938, y: -.00352986646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_3
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 688
+        width: 49
+        height: 42
+      alignment: 9
+      pivot: {x: .309588999, y: -.00352986646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 689
+        width: 50
+        height: 41
+      alignment: 9
+      pivot: {x: .300957024, y: .0448727496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_5
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 689
+        width: 51
+        height: 41
+      alignment: 9
+      pivot: {x: .306656182, y: .00634021312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_6
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 689
+        width: 51
+        height: 41
+      alignment: 9
+      pivot: {x: .29648006, y: .00634021312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_7
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 689
+        width: 51
+        height: 41
+      alignment: 9
+      pivot: {x: .306656182, y: .00634021312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_8
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 689
+        width: 54
+        height: 41
+      alignment: 9
+      pivot: {x: .288565189, y: -.0063178828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_9
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 689
+        width: 54
+        height: 41
+      alignment: 9
+      pivot: {x: .288566321, y: .0063387244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 615
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 614
+        width: 31
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 616
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_13
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 613
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 613
+        width: 31
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 614
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_22
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 616
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_30
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 548
+        width: 34
+        height: 18
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_31
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 549
+        width: 33
+        height: 24
+      alignment: 9
+      pivot: {x: -.0067436914, y: .252258301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_32
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 553
+        width: 30
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 553
+        width: 24
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_34
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 554
+        width: 20
+        height: 30
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 554
+        width: 12
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_36
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 554
+        width: 8
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_37
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 554
+        width: 10
+        height: 35
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_38
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 554
+        width: 18
+        height: 32
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_39
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 553
+        width: 24
+        height: 29
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 478
+        width: 29
+        height: 26
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_41
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 475
+        width: 33
+        height: 23
+      alignment: 9
+      pivot: {x: .984221935, y: .241486922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_42
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 474
+        width: 34
+        height: 18
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_43
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 472
+        width: 35
+        height: 16
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_44
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 467
+        width: 33
+        height: 17
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_45
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 458
+        width: 29
+        height: 24
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_46
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 452
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: .778709412, y: .995482385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_47
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 447
+        width: 14
+        height: 35
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_48
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 446
+        width: 8
+        height: 36
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_49
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 447
+        width: 11
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_50
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 397
+        width: 35
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: .600000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_51
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 413
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pistol_noArm
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 400
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_53
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 378
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: .221291229, y: 1.00786948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_54
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 384
+        width: 29
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_55
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 392
+        width: 33
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_56
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 321
+        width: 38
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_57
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 318
+        width: 47
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_58
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 318
+        width: 50
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_59
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 318
+        width: 52
+        height: 38
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_60
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 318
+        width: 52
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_61
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 318
+        width: 54
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_62
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 275
+        height: 377
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_68
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 150
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_52
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 150
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sheet_Cowboy_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

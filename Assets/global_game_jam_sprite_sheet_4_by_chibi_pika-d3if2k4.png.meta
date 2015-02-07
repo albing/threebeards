@@ -1,0 +1,706 @@
+fileFormatVersion: 2
+guid: b160d41f015834dafa2bbf1780417dda
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_0
+    21300002: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_1
+    21300004: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_2
+    21300006: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_3
+    21300008: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_4
+    21300010: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_5
+    21300012: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_6
+    21300014: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_7
+    21300016: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_8
+    21300018: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_9
+    21300020: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_10
+    21300022: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_11
+    21300024: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_12
+    21300026: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_13
+    21300028: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_14
+    21300030: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_15
+    21300032: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_16
+    21300034: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_17
+    21300036: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_18
+    21300038: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_19
+    21300040: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_20
+    21300042: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_21
+    21300044: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_22
+    21300046: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_23
+    21300048: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_24
+    21300050: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_25
+    21300052: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_26
+    21300054: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_27
+    21300056: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_28
+    21300058: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_29
+    21300060: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_30
+    21300062: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_31
+    21300064: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_32
+    21300066: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_33
+    21300068: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_34
+    21300070: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_35
+    21300072: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_36
+    21300074: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_37
+    21300076: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_38
+    21300078: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_39
+    21300080: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_40
+    21300082: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_41
+    21300084: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_42
+    21300086: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_43
+    21300088: rock
+    21300090: grass2
+    21300092: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_46
+    21300094: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_47
+    21300096: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_48
+    21300098: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_49
+    21300100: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_50
+    21300102: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_51
+    21300104: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_52
+    21300106: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_53
+    21300108: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_54
+    21300110: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_55
+    21300112: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_56
+    21300114: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_57
+    21300116: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_58
+    21300118: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_59
+    21300120: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_60
+    21300122: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_61
+    21300124: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_62
+    21300126: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_63
+    21300128: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_64
+    21300130: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_65
+    21300132: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_66
+    21300134: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_67
+    21300136: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_68
+    21300138: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_69
+    21300140: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_70
+    21300142: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_71
+    21300144: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_72
+    21300146: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_73
+    21300148: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_74
+    21300150: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_75
+    21300152: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_76
+    21300154: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_77
+    21300156: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_78
+    21300158: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_79
+    21300160: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_80
+    21300162: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_81
+    21300164: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_82
+    21300166: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_83
+    21300168: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_84
+    21300170: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_85
+    21300172: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_86
+    21300174: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_87
+    21300176: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_88
+    21300178: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_89
+    21300180: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_90
+    21300182: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_91
+    21300184: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_92
+    21300186: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_93
+    21300188: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_94
+    21300190: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_95
+    21300192: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_96
+    21300194: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_97
+    21300196: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_98
+    21300198: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_99
+    21300200: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_100
+    21300202: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_101
+    21300204: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_102
+    21300206: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_103
+    21300208: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_104
+    21300210: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_105
+    21300212: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_106
+    21300214: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_107
+    21300216: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_108
+    21300218: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_109
+    21300220: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_110
+    21300222: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_111
+    21300224: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_112
+    21300226: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_113
+    21300228: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_114
+    21300230: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_115
+    21300232: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_116
+    21300234: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_117
+    21300236: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_118
+    21300238: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_119
+    21300240: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_120
+    21300242: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_121
+    21300244: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_122
+    21300246: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_123
+    21300248: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_124
+    21300250: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_125
+    21300252: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_126
+    21300254: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_127
+    21300256: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_128
+    21300258: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_129
+    21300260: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_130
+    21300262: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_131
+    21300264: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_132
+    21300266: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_133
+    21300268: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_134
+    21300270: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_135
+    21300272: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_136
+    21300274: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_137
+    21300276: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_138
+    21300278: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_139
+    21300280: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_140
+    21300282: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_141
+    21300284: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_142
+    21300286: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_143
+    21300288: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_144
+    21300290: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_145
+    21300292: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_146
+    21300294: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_147
+    21300296: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_148
+    21300298: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_149
+    21300300: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_150
+    21300302: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_151
+    21300304: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_152
+    21300306: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_153
+    21300308: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_154
+    21300310: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_155
+    21300312: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_156
+    21300314: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_157
+    21300316: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_158
+    21300318: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_159
+    21300320: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_160
+    21300322: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_161
+    21300324: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_162
+    21300326: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_163
+    21300328: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_164
+    21300330: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_165
+    21300332: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_166
+    21300334: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_167
+    21300336: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_168
+    21300338: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_169
+    21300340: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_170
+    21300342: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_171
+    21300344: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_172
+    21300346: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_173
+    21300348: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_174
+    21300350: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_175
+    21300352: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_176
+    21300354: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_177
+    21300356: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_178
+    21300358: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_179
+    21300360: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_180
+    21300362: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_181
+    21300364: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_182
+    21300366: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_183
+    21300368: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_184
+    21300370: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_185
+    21300372: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_186
+    21300374: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_187
+    21300376: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_188
+    21300378: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_189
+    21300380: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_190
+    21300382: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_191
+    21300384: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_192
+    21300386: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_193
+    21300388: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_194
+    21300390: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_195
+    21300392: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_196
+    21300394: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_197
+    21300396: grass1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 347
+        width: 51
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 409
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 404
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 405
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_4
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 404
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_5
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 430
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 404
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_7
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 422
+        width: 76
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_8
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 431
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_9
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 296
+        width: 242
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_10
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 406
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_11
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 408
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_12
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 382
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_13
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 337
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_14
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 324
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 333
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 340
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_17
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 302
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_18
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 293
+        width: 76
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 199
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_20
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 212
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_21
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 210
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_22
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 184
+        width: 33
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_23
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 183
+        width: 33
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_24
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 227
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_25
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 216
+        width: 93
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_26
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 255
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_27
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 264
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_28
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 243
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_29
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 272
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_30
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 169
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_31
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 77
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_32
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 148
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_33
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 191
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_35
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 18
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 18
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_37
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 111
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_38
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 21
+        width: 54
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_39
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 23
+        width: 127
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_40
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 46
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_41
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 24
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: global_game_jam_sprite_sheet_4_by_chibi_pika-d3if2k4_42
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rock
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 363
+        width: 46
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grass1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 363
+        width: 46
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grass2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 412
+        width: 46
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
