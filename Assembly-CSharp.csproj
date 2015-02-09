@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\EnemyManager.cs" />
+     <Compile Include="Assets\GenerateGrass.cs" />
      <Compile Include="Assets\MakeBullets.cs" />
      <Compile Include="Assets\MousePoint.cs" />
      <Compile Include="Assets\RandomSubtitle.cs" />
