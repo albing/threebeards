@@ -2,25 +2,30 @@
 using System.Collections;
 
 public class followPlayer : MonoBehaviour {
-
-	Transform target;
-	Transform enemyTransform;
-	public float speed = 6.58f;
-	public float rotationSpeed = 2.95f;
-
-	void Start() {
-		enemyTransform = this.GetComponent<Transform> ();
+	
+	public float speed, rotationSpeed;
+	Transform target, myTransform;
+	Vector3 last;
+	
+	void Awake() {
+		myTransform = transform;
 	}
-
-	void Update () {
-
+	
+	void Start() {
 		target = GameObject.FindWithTag ("Player").transform;
-		Vector3 targetHeading = target.position - transform.position;
-		Vector3 targetDirection = targetHeading.normalized;
-
-		transform.rotation = Quaternion.LookRotation (targetDirection);
-		transform.eulerAngles = new Vector3 (0, transform.eulerAngles.y, 0);
-
-		enemyTransform.position += enemyTransform.forward * speed * Time.deltaTime;
+		last = target.position;
+	}
+	
+	void Update () {
+		
+		Vector3 dir = target.position - transform.position;
+		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+		Quaternion q = Quaternion.AngleAxis(angle + 90, Vector3.forward);
+		transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * rotationSpeed);
+		
+		if(target.position != last) {
+			myTransform.position -= myTransform.up * speed * Time.deltaTime;
+			last = target.position;
+		}
 	}
 }
