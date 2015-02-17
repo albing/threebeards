@@ -51,6 +51,7 @@
      <Compile Include="Assets\MakeBullets.cs" />
      <Compile Include="Assets\MousePoint.cs" />
      <Compile Include="Assets\RandomSubtitle.cs" />
+     <Compile Include="Assets\ScoreUpdater.cs" />
      <Compile Include="Assets\Shoot.cs" />
      <Compile Include="Assets\cowboyMove.cs" />
      <Compile Include="Assets\followPlayer.cs" />
