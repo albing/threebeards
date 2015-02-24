@@ -745,7 +745,6 @@ GameObject:
   - 212: {fileID: 728140269}
   - 61: {fileID: 728140268}
   - 114: {fileID: 728140271}
-  - 61: {fileID: 728140272}
   m_Layer: 0
   m_Name: warning sign
   m_TagString: Untagged
@@ -810,17 +809,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textBoxObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
---- !u!61 &728140272
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 728140267}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 12.8000002, y: 10.1300001}
-  m_Center: {x: 0, y: 0}
 --- !u!1 &829542330
 GameObject:
   m_ObjectHideFlags: 0
