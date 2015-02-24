@@ -5,6 +5,7 @@ TagManager:
   tags:
   - enemy
   - scenery
+  - enemyspawn
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
