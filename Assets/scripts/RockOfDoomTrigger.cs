@@ -17,11 +17,11 @@ public class RockOfDoomTrigger : MonoBehaviour {
 	}
 
 	void OnTriggerStay2D(Collider2D other){
-		Debug.Log ("Object Stayed in Collider");
+		Debug.Log ("Object Stayed in Collider : " + other.name);
 	}
 
 	void OnTriggerExit2D(Collider2D other ) {
-		Debug.Log ("Object Left Collider");
+		Debug.Log ("Object Left Collider : " + other.name);
 	}
 
 }
