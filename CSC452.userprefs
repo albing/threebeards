@@ -1,6 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\RockOfDoomTrigger.cs">
+    <Files>
+      <File FileName="Assets\scripts\EnemyManager.cs" Line="31" Column="104" />
+      <File FileName="Assets\scripts\RockOfDoomTrigger.cs" Line="6" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
