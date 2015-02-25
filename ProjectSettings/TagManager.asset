@@ -15,7 +15,7 @@ TagManager:
   Builtin Layer 5: UI
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: 
+  User Layer 8: Fence
   User Layer 9: 
   User Layer 10: 
   User Layer 11: 
@@ -40,13 +40,17 @@ TagManager:
   User Layer 30: 
   User Layer 31: 
   m_SortingLayers:
+  - name: background
+    userID: 1
+    uniqueID: 142979969
+    locked: 0
   - name: Default
     userID: 0
     uniqueID: 0
     locked: 0
-  - name: background
-    userID: 1
-    uniqueID: 142979969
+  - name: Fence
+    userID: 3
+    uniqueID: 4148949985
     locked: 0
   - name: characters
     userID: 2
