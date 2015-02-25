@@ -84,7 +84,7 @@ GameObject:
   - 4: {fileID: 216169}
   - 212: {fileID: 216171}
   - 60: {fileID: 216170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,15 +198,15 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &35941457
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 174122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 35941458}
@@ -221,8 +221,8 @@ GameObject:
 --- !u!4 &35941458
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 474122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 35941457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .331999987, y: .0529999994, z: 0}
@@ -233,8 +233,9 @@ Transform:
 --- !u!114 &35941459
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11474122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 35941457}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -278,7 +279,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 40240558}
   - 212: {fileID: 40240557}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: map1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,8 +323,8 @@ Transform:
 --- !u!1 &91687972
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 174124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 91687975}
@@ -332,6 +333,7 @@ GameObject:
   - 50: {fileID: 91687976}
   - 61: {fileID: 91687977}
   - 114: {fileID: 91687978}
+  - 82: {fileID: 91687979}
   m_Layer: 13
   m_Name: Cowboy
   m_TagString: Player
@@ -343,8 +345,9 @@ GameObject:
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 9574122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 91687972}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
@@ -357,8 +360,9 @@ Animator:
 --- !u!212 &91687974
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 21274122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 91687972}
   m_Enabled: 1
   m_CastShadows: 0
@@ -379,11 +383,11 @@ SpriteRenderer:
 --- !u!4 &91687975
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 91687972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35, y: -36, z: 0}
+  m_LocalPosition: {x: -31.6900005, y: -33.7599983, z: 0}
   m_LocalScale: {x: 5.49221802, y: 5.49221611, z: 5.49221611}
   m_Children:
   - {fileID: 1780024260}
@@ -393,8 +397,9 @@ Transform:
 --- !u!50 &91687976
 Rigidbody2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 5074122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 91687972}
   m_Mass: 1
   m_LinearDrag: 0
@@ -408,8 +413,9 @@ Rigidbody2D:
 --- !u!61 &91687977
 BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 6174122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 91687972}
   m_Enabled: 1
   m_Material: {fileID: 0}
@@ -419,8 +425,9 @@ BoxCollider2D:
 --- !u!114 &91687978
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 91687972}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -428,6 +435,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!82 &91687979
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8274122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
+  m_GameObject: {fileID: 91687972}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 4b4baece4884e4bb2904ce808cea7e1c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .128000006
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &111940972
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,7 +615,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 05dd1c6ef0e3f0b47a8ef3d94d4c141a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -846,7 +912,7 @@ GameObject:
   - 4: {fileID: 221805548}
   - 212: {fileID: 221805550}
   - 60: {fileID: 221805549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -960,7 +1026,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1089,7 +1155,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 05dd1c6ef0e3f0b47a8ef3d94d4c141a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1103,7 +1169,7 @@ GameObject:
   - 4: {fileID: 274968800}
   - 212: {fileID: 274968802}
   - 60: {fileID: 274968801}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1169,7 +1235,7 @@ GameObject:
   - 4: {fileID: 281737553}
   - 212: {fileID: 281737555}
   - 60: {fileID: 281737554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1283,7 +1349,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1297,7 +1363,7 @@ GameObject:
   - 4: {fileID: 344555006}
   - 212: {fileID: 344555008}
   - 60: {fileID: 344555007}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallFenceHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1533,7 +1599,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 05dd1c6ef0e3f0b47a8ef3d94d4c141a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1547,7 +1613,7 @@ GameObject:
   - 4: {fileID: 453984129}
   - 212: {fileID: 453984131}
   - 60: {fileID: 453984130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1661,7 +1727,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1762,6 +1828,60 @@ Prefab:
   m_RootGameObject: {fileID: 1292714745}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &555757235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 555757238}
+  - 61: {fileID: 555757237}
+  - 114: {fileID: 555757236}
+  m_Layer: 0
+  m_Name: 0 - jackwagon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &555757236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 555757235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41075b7e68f874d1abee4cabc51004dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: What are you thinking!?  That ain't no 'W' I've ever seen!  Press 'W' to go
+    forward, you mother-lovin' jackwagon!
+  messageWindowObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
+--- !u!61 &555757237
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 555757235}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 11.8400002, y: 3.87799788}
+  m_Center: {x: -9.53674316e-07, y: -.360603809}
+--- !u!4 &555757238
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 555757235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.86999989, y: .230000004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 909230658}
+  m_RootOrder: 0
 --- !u!1 &558609078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,7 +1892,7 @@ GameObject:
   - 4: {fileID: 558609079}
   - 212: {fileID: 558609081}
   - 60: {fileID: 558609080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1828,6 +1948,61 @@ SpriteRenderer:
   m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: 0de348f1a0910084c90a9a7021dee126, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &567912714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 567912715}
+  - 61: {fileID: 567912717}
+  - 114: {fileID: 567912716}
+  m_Layer: 0
+  m_Name: 4 - spiders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &567912715
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 567912714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.0200005, y: 13.6800003, z: 0}
+  m_LocalScale: {x: 1.11315274, y: 1.11315262, z: 1.11315262}
+  m_Children: []
+  m_Father: {fileID: 909230658}
+  m_RootOrder: 4
+--- !u!114 &567912716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 567912714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41075b7e68f874d1abee4cabc51004dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: You might see some spiders around here - them's not your average, garden-variety
+    spider.  No sir-y, that's one bad momma that'd just as soon eat you alive as I'd
+    have impeached Obama for his lies!
+  messageWindowObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
+--- !u!61 &567912717
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 567912714}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 10.6924076, y: 10.1932039}
+  m_Center: {x: -.57379669, y: 1.95110261}
 --- !u!1 &567998199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,7 +2013,7 @@ GameObject:
   - 4: {fileID: 567998200}
   - 212: {fileID: 567998202}
   - 60: {fileID: 567998201}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallFenceHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2144,7 +2319,7 @@ GameObject:
   - 4: {fileID: 724039425}
   - 212: {fileID: 724039427}
   - 60: {fileID: 724039426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallFenceHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2211,6 +2386,7 @@ GameObject:
   - 212: {fileID: 728140269}
   - 61: {fileID: 728140268}
   - 114: {fileID: 728140271}
+  - 61: {fileID: 728140272}
   m_Layer: 0
   m_Name: warning sign
   m_TagString: Untagged
@@ -2278,6 +2454,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textBoxObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
+--- !u!61 &728140272
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 728140267}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 12.8000002, y: 10.1300001}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &787699964
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,7 +2559,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 05dd1c6ef0e3f0b47a8ef3d94d4c141a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2386,7 +2573,7 @@ GameObject:
   - 4: {fileID: 798592422}
   - 212: {fileID: 798592424}
   - 60: {fileID: 798592423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2452,7 +2639,7 @@ GameObject:
   - 4: {fileID: 815835889}
   - 212: {fileID: 815835891}
   - 60: {fileID: 815835890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2545,7 +2732,7 @@ GameObject:
   - 4: {fileID: 839467601}
   - 212: {fileID: 839467603}
   - 60: {fileID: 839467602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallFenceHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2611,7 +2798,7 @@ GameObject:
   - 4: {fileID: 863151878}
   - 212: {fileID: 863151880}
   - 60: {fileID: 863151879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2725,10 +2912,44 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &909230657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 909230658}
+  m_Layer: 0
+  m_Name: Invisible Tutorial Triggers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &909230658
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 909230657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.222971, y: -36.2771111, z: 6.1484375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 555757238}
+  - {fileID: 956560934}
+  - {fileID: 1656659301}
+  - {fileID: 1038749821}
+  - {fileID: 567912715}
+  - {fileID: 1608615860}
+  - {fileID: 1790487459}
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
 --- !u!1 &928665332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,7 +2958,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 928665333}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fencing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2888,10 +3109,64 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 05dd1c6ef0e3f0b47a8ef3d94d4c141a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &956560933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 956560934}
+  - 61: {fileID: 956560936}
+  - 114: {fileID: 956560935}
+  m_Layer: 0
+  m_Name: 1 - welcome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956560934
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 956560933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.03000069, y: 3.09000015, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 909230658}
+  m_RootOrder: 1
+--- !u!114 &956560935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 956560933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41075b7e68f874d1abee4cabc51004dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Welcome to Ft. Noob, maggot!  The Canadians are attacking, and we need someone
+    who can kick their kiesters right back to syrup-land.  Press 'W' to walk forward!
+  messageWindowObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
+--- !u!61 &956560936
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 956560933}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 11.8400002, y: 5.59110641}
+  m_Center: {x: 0, y: 2.27944756}
 --- !u!1 &1005321122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,7 +3177,7 @@ GameObject:
   - 4: {fileID: 1005321123}
   - 212: {fileID: 1005321125}
   - 60: {fileID: 1005321124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3020,7 +3295,7 @@ GameObject:
   - 4: {fileID: 1012595940}
   - 212: {fileID: 1012595942}
   - 60: {fileID: 1012595941}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3134,10 +3409,64 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1038749818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1038749821}
+  - 61: {fileID: 1038749820}
+  - 114: {fileID: 1038749819}
+  m_Layer: 0
+  m_Name: 3 - down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1038749819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038749818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41075b7e68f874d1abee4cabc51004dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Hurry, press 'S' to move down!  Move move move!  I'll meet you around the
+    other side of this fence!
+  messageWindowObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
+--- !u!61 &1038749820
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038749818}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 10.6924076, y: 5.67294359}
+  m_Center: {x: -.573796272, y: .536870956}
+--- !u!4 &1038749821
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038749818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.53999996, y: 13.2399998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 909230658}
+  m_RootOrder: 3
 --- !u!1 &1059530336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3148,7 +3477,7 @@ GameObject:
   - 4: {fileID: 1059530337}
   - 212: {fileID: 1059530339}
   - 60: {fileID: 1059530338}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3262,7 +3591,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3276,7 +3605,7 @@ GameObject:
   - 4: {fileID: 1071774087}
   - 212: {fileID: 1071774089}
   - 60: {fileID: 1071774088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3387,7 +3716,7 @@ GameObject:
   - 4: {fileID: 1212380535}
   - 212: {fileID: 1212380537}
   - 60: {fileID: 1212380536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3779,7 +4108,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 05dd1c6ef0e3f0b47a8ef3d94d4c141a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3891,7 +4220,7 @@ GameObject:
   - 4: {fileID: 1299235254}
   - 212: {fileID: 1299235256}
   - 60: {fileID: 1299235255}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallFenceHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4035,7 +4364,7 @@ GameObject:
   - 4: {fileID: 1330933194}
   - 212: {fileID: 1330933196}
   - 60: {fileID: 1330933195}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4199,7 +4528,7 @@ GameObject:
   - 4: {fileID: 1396175255}
   - 212: {fileID: 1396175257}
   - 60: {fileID: 1396175256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4258,8 +4587,8 @@ SpriteRenderer:
 --- !u!1 &1469264744
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 174126, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1469264749}
@@ -4277,29 +4606,33 @@ GameObject:
 --- !u!81 &1469264745
 AudioListener:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 8174122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 1469264744}
   m_Enabled: 1
 --- !u!124 &1469264746
 Behaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 12474122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 1469264744}
   m_Enabled: 1
 --- !u!92 &1469264747
 Behaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 9274122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 1469264744}
   m_Enabled: 1
 --- !u!20 &1469264748
 Camera:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 2074122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 1469264744}
   m_Enabled: 1
   serializedVersion: 2
@@ -4330,8 +4663,8 @@ Camera:
 --- !u!4 &1469264749
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 474126, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 1469264744}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .240340069, y: .338661104, z: -1.82075858}
@@ -4496,7 +4829,7 @@ GameObject:
   - 4: {fileID: 1520018010}
   - 212: {fileID: 1520018011}
   - 60: {fileID: 1520018012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4533,7 +4866,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4708,7 +5041,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 05dd1c6ef0e3f0b47a8ef3d94d4c141a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4722,7 +5055,7 @@ GameObject:
   - 4: {fileID: 1576545913}
   - 212: {fileID: 1576545915}
   - 60: {fileID: 1576545914}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallFenceHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4870,6 +5203,114 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 15}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
+--- !u!1 &1608615859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1608615860}
+  - 61: {fileID: 1608615862}
+  - 114: {fileID: 1608615861}
+  m_Layer: 0
+  m_Name: 5 - left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1608615860
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1608615859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.1700001, y: 27.9799995, z: 0}
+  m_LocalScale: {x: 1.05273175, y: 1.89162636, z: 1.05273163}
+  m_Children: []
+  m_Father: {fileID: 909230658}
+  m_RootOrder: 5
+--- !u!114 &1608615861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1608615859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41075b7e68f874d1abee4cabc51004dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: All righty, now, inappropriate comment about the 'A' key meant as intimidating,
+    fraternal motivation... to move to the left!
+  messageWindowObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
+--- !u!61 &1608615862
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1608615859}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 10.6924076, y: 5.67294359}
+  m_Center: {x: -.573796272, y: .536870956}
+--- !u!1 &1656659298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1656659301}
+  - 61: {fileID: 1656659300}
+  - 114: {fileID: 1656659299}
+  m_Layer: 0
+  m_Name: 2 - right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1656659299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1656659298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41075b7e68f874d1abee4cabc51004dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: That's the only 'W' I've been proud of since Bush took office!  Now give 'em
+    the 'D'... key... to walk to the right...
+  messageWindowObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
+--- !u!61 &1656659300
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1656659298}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 11.8400002, y: 5.67294359}
+  m_Center: {x: -1.1920929e-06, y: .536870003}
+--- !u!4 &1656659301
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1656659298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.6400001, y: 13.0600004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 909230658}
+  m_RootOrder: 2
 --- !u!1 &1664535337
 GameObject:
   m_ObjectHideFlags: 0
@@ -4971,7 +5412,7 @@ GameObject:
   - 4: {fileID: 1664854497}
   - 212: {fileID: 1664854499}
   - 60: {fileID: 1664854498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5085,7 +5526,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5126,7 +5567,7 @@ GameObject:
   - 4: {fileID: 1745442561}
   - 212: {fileID: 1745442563}
   - 60: {fileID: 1745442562}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5240,7 +5681,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5292,8 +5733,8 @@ Prefab:
 --- !u!1 &1780024259
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 174128, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1780024260}
@@ -5309,8 +5750,8 @@ GameObject:
 --- !u!4 &1780024260
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 474128, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 1780024259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .0289999992, y: .144999996, z: 0}
@@ -5322,8 +5763,9 @@ Transform:
 --- !u!212 &1780024261
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 21274124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 1780024259}
   m_Enabled: 1
   m_CastShadows: 0
@@ -5344,14 +5786,70 @@ SpriteRenderer:
 --- !u!114 &1780024262
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11474126, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 1780024259}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51a6903e3c97e427989b2d658b921583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1790487458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1790487459}
+  - 61: {fileID: 1790487461}
+  - 114: {fileID: 1790487460}
+  m_Layer: 0
+  m_Name: 6 - shooting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1790487459
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790487458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9000001, y: 38.2999992, z: 0}
+  m_LocalScale: {x: 1.11315298, y: 1.11315298, z: 1.11315298}
+  m_Children: []
+  m_Father: {fileID: 909230658}
+  m_RootOrder: 6
+--- !u!114 &1790487460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790487458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41075b7e68f874d1abee4cabc51004dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: We captured some o' them spiders as target practice.  Just picture them with
+    big maple leafs on them and press the LMB to fire the ultimate American weapon
+    - a gun that shoots other guns!
+  messageWindowObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
+--- !u!61 &1790487461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790487458}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 10.6924076, y: 10.1932039}
+  m_Center: {x: -.57379669, y: 1.95110261}
 --- !u!1 &1890923767
 GameObject:
   m_ObjectHideFlags: 0
@@ -5414,7 +5912,7 @@ GameObject:
   - 4: {fileID: 1919978285}
   - 212: {fileID: 1919978287}
   - 60: {fileID: 1919978286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallVerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5480,7 +5978,7 @@ GameObject:
   - 4: {fileID: 1920153190}
   - 212: {fileID: 1920153192}
   - 60: {fileID: 1920153191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5594,7 +6092,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5692,7 +6190,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 05dd1c6ef0e3f0b47a8ef3d94d4c141a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5706,7 +6204,7 @@ GameObject:
   - 4: {fileID: 2027849778}
   - 212: {fileID: 2027849780}
   - 60: {fileID: 2027849779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallFenceHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5772,7 +6270,7 @@ GameObject:
   - 4: {fileID: 2027966550}
   - 212: {fileID: 2027966552}
   - 60: {fileID: 2027966551}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VerticalFence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5886,10 +6384,62 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 142979969
+  m_SortingLayerID: 4148949985
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbf5c507e50cf4642bdc416f36b46616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &2096790400
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -31.6900005
+      objectReference: {fileID: 0}
+    - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -33.7599983
+      objectReference: {fileID: 0}
+    - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: Mute
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_Volume
+      value: .128000006
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+  m_RootGameObject: {fileID: 91687972}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &2115763833
 GameObject:
   m_ObjectHideFlags: 0
@@ -5973,7 +6523,7 @@ GameObject:
   - 4: {fileID: 2120424020}
   - 212: {fileID: 2120424022}
   - 60: {fileID: 2120424021}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallFenceHorizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}

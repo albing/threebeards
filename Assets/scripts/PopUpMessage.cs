@@ -25,7 +25,8 @@ public class PopUpMessage : MonoBehaviour {
 		if(!string.IsNullOrEmpty(text))
 		{
 			Text t = transform.GetComponentInChildren<Text> ();
- 			t.text = this.text;
+
+			t.text = this.text;
 		}
 	}
 
@@ -44,8 +45,7 @@ public class PopUpMessage : MonoBehaviour {
 			Debug.LogError ("Pause and Wait for Click not implemented!");
 			break;
 		case MessageDestroyType.Proximity:
-			// TODO: not implemented!
-			Debug.LogError ("Proximity not implemented!");
+			// TODO: not really implemented?  See AreaTrigger.cs
 			break;
 		case MessageDestroyType.Never:
 			// TODO: done, but is this ever going to be useful?
