@@ -13,8 +13,8 @@ public class RockOfDoomTrigger : MonoBehaviour {
 			{
 				Instantiate (enemy, spawn.transform.position, spawn.transform.rotation);
 			}
+			GameObject.Find("EnemyManager").SendMessage("StartSpawning");
 		}
-		GameObject.Find("EnemyManager").SendMessage("StartSpawning");
 	}
 
 	void OnTriggerStay2D(Collider2D other){

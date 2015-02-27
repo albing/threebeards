@@ -9,7 +9,6 @@ public class EnemyManager : MonoBehaviour {
 	public List<Transform> spawnPoints;
 	public bool enableSpawning = false;
 
-	// Use this for initialization
 	void Start () {
 		InvokeRepeating ("Spawn", spawnTime, spawnTime);
 		var spawns = GameObject.FindGameObjectsWithTag ("enemyspawn");
@@ -18,8 +17,7 @@ public class EnemyManager : MonoBehaviour {
 			spawnPoints.Add (spawn.transform);
 		}
 	}
-	
-	// Update is called once per frame
+
 	void Spawn () {
 		if ( enableSpawning )
 		{
@@ -35,5 +33,10 @@ public class EnemyManager : MonoBehaviour {
 	void StartSpawning()
 	{
 		enableSpawning = true;
+	}
+
+	void StopSpawning() 
+	{
+		enableSpawning = false;
 	}
 }

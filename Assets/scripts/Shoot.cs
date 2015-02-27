@@ -5,12 +5,10 @@ public class Shoot : MonoBehaviour {
 	float speed = 0.4f, secondsUntilDestroy = 1.0f, startTime;
 	public static int score = 0;
 
-	// Use this for initialization
 	void Start () {
 		startTime = Time.time;
 	}
-	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		gameObject.transform.position += speed * gameObject.transform.right;
 		if(Time.time - startTime >= secondsUntilDestroy)

@@ -516,7 +516,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 111940972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.88199663, y: -31.1916084, z: -.90625}
+  m_LocalPosition: {x: 8.05000019, y: -30.6499996, z: -.910000026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1752213514}
@@ -818,7 +818,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 17
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
@@ -1606,7 +1606,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
@@ -1892,7 +1892,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401134, guid: 68cef7235407a2541a7eb5b1a5712068, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68cef7235407a2541a7eb5b1a5712068, type: 2}
@@ -2226,7 +2226,7 @@ Transform:
   m_LocalScale: {x: .14666985, y: .146669835, z: .146669835}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
 --- !u!114 &728140271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2503,7 +2503,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 829542330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.88199663, y: 22.8083916, z: -.90625}
+  m_LocalPosition: {x: 7.63999987, y: 22.8400002, z: -.910000026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1752213514}
@@ -2734,8 +2734,9 @@ Transform:
   - {fileID: 567912715}
   - {fileID: 1608615860}
   - {fileID: 1790487459}
+  - {fileID: 1255004920}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
 --- !u!1 &928665332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,7 +3511,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
@@ -3729,6 +3730,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
+--- !u!1 &1255004916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1255004920}
+  - 61: {fileID: 1255004919}
+  - 114: {fileID: 1255004918}
+  m_Layer: 0
+  m_Name: 7 - live enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1255004918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255004916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41075b7e68f874d1abee4cabc51004dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Now woah there, pardner, that there's the live-fire range, with spiders that're
+    as mean as they come.  Do away with 20 of 'em and you've passed.  God bless conceal
+    and carry!
+  messageWindowObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
+--- !u!61 &1255004919
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255004916}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 8.74540043, y: 7.84056902}
+  m_Center: {x: .399701685, y: 13.1057549}
+--- !u!4 &1255004920
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255004916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.6599998, y: 55.7299995, z: 0}
+  m_LocalScale: {x: 1.11315298, y: 1.11315298, z: 1.11315298}
+  m_Children: []
+  m_Father: {fileID: 909230658}
+  m_RootOrder: 7
 --- !u!1 &1283408289
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,7 +3882,7 @@ Transform:
   m_LocalScale: {x: 8.05475426, y: 8.05475235, z: 8.05475235}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
 --- !u!1 &1289916829
 GameObject:
   m_ObjectHideFlags: 0
@@ -4330,7 +4386,7 @@ Transform:
   m_LocalScale: {x: 8.05475426, y: 8.05475235, z: 8.05475235}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
 --- !u!1 &1396175254
 GameObject:
   m_ObjectHideFlags: 0
@@ -4522,7 +4578,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
@@ -4624,7 +4680,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
@@ -5437,7 +5493,7 @@ Transform:
   - {fileID: 1680332472}
   - {fileID: 38189099}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
 --- !u!1001 &1757590028
 Prefab:
   m_ObjectHideFlags: 0
@@ -5475,7 +5531,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11445246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
@@ -5589,8 +5645,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: We captured some o' them spiders as target practice.  Just picture them with
-    big maple leafs on them and press the LMB to fire the ultimate American weapon
-    - a gun that shoots other guns!
+    big maple leafs on their backs and click the mouse to fire the ultimate 'Merican
+    weapon - a gun that shoots other guns!
   messageWindowObject: {fileID: 119024, guid: 720f5439b7beb4b1187de8c527ab8ee2, type: 2}
 --- !u!61 &1790487461
 BoxCollider2D:
@@ -5601,8 +5657,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: 10.6924076, y: 10.1932039}
-  m_Center: {x: -.57379669, y: 1.95110261}
+  m_Size: {x: 10.6924076, y: 13.5193205}
+  m_Center: {x: -.573796153, y: 3.61415672}
 --- !u!1 &1890923767
 GameObject:
   m_ObjectHideFlags: 0
