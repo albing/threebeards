@@ -4,28 +4,29 @@ using System.Collections;
 public class followPlayer : MonoBehaviour {
 	
 	public float speed, rotationSpeed;
-	Transform target, myTransform;
-	Vector3 last;
+	public float acceleration = 10;
+	Transform target;
+	Vector2 last;
 	
 	void Awake() {
-		myTransform = transform;
 	}
 	
 	void Start() {
 		target = GameObject.FindWithTag ("Player").transform;
 		last = target.position;
 	}
-	
-	void Update () {
-		
-		Vector3 dir = target.position - transform.position;
+
+	void FixedUpdate(){
+		Vector2 dir = target.position - transform.position;
 		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 		Quaternion q = Quaternion.AngleAxis(angle + 90, Vector3.forward);
 		transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * rotationSpeed);
 		
-		if(target.position != last) {
-			last = target.position;
+		last = dir;
+
+		if (rigidbody2D.velocity.magnitude < speed) {
+			Vector2 accelVector = new Vector2(last.normalized.x * acceleration,last.normalized.y * acceleration);
+			rigidbody2D.AddForce(accelVector,ForceMode2D.Impulse);
 		}
-		myTransform.position -= myTransform.up * speed * Time.deltaTime;
 	}
 }

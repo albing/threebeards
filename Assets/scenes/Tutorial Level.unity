@@ -402,7 +402,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 2096790400}
   m_GameObject: {fileID: 91687972}
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: .349999994
   m_AngularDrag: .0500000007
   m_GravityScale: 0
   m_FixedAngle: 1
@@ -435,6 +435,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  acceleration: 1
+  groundFriction: 90
 --- !u!82 &91687979
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1953,9 +1955,9 @@ Rigidbody2D:
     type: 2}
   m_PrefabInternal: {fileID: 1511585361}
   m_GameObject: {fileID: 605446126}
-  m_Mass: 10
-  m_LinearDrag: 1e+06
-  m_AngularDrag: 1e+06
+  m_Mass: 1
+  m_LinearDrag: .75999999
+  m_AngularDrag: 5
   m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
@@ -2051,9 +2053,9 @@ Rigidbody2D:
     type: 2}
   m_PrefabInternal: {fileID: 1484254255}
   m_GameObject: {fileID: 657948108}
-  m_Mass: 10
-  m_LinearDrag: 1e+06
-  m_AngularDrag: 1e+06
+  m_Mass: 1
+  m_LinearDrag: .75999999
+  m_AngularDrag: 5
   m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
@@ -3686,9 +3688,9 @@ Rigidbody2D:
     type: 2}
   m_PrefabInternal: {fileID: 201209608}
   m_GameObject: {fileID: 1254389440}
-  m_Mass: 10
-  m_LinearDrag: 1e+06
-  m_AngularDrag: 1e+06
+  m_Mass: 1
+  m_LinearDrag: .75999999
+  m_AngularDrag: 5
   m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
@@ -3839,9 +3841,9 @@ Rigidbody2D:
     type: 2}
   m_PrefabInternal: {fileID: 1757590028}
   m_GameObject: {fileID: 1283408289}
-  m_Mass: 10
-  m_LinearDrag: 1e+06
-  m_AngularDrag: 1e+06
+  m_Mass: 1
+  m_LinearDrag: .75999999
+  m_AngularDrag: 5
   m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
@@ -4035,9 +4037,9 @@ Rigidbody2D:
     type: 2}
   m_PrefabInternal: {fileID: 547672890}
   m_GameObject: {fileID: 1292714745}
-  m_Mass: 10
-  m_LinearDrag: 1e+06
-  m_AngularDrag: 1e+06
+  m_Mass: 1
+  m_LinearDrag: .75999999
+  m_AngularDrag: 5
   m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
@@ -4343,9 +4345,9 @@ Rigidbody2D:
     type: 2}
   m_PrefabInternal: {fileID: 1205160315}
   m_GameObject: {fileID: 1363708929}
-  m_Mass: 10
-  m_LinearDrag: 1e+06
-  m_AngularDrag: 1e+06
+  m_Mass: 1
+  m_LinearDrag: .75999999
+  m_AngularDrag: 5
   m_GravityScale: 0
   m_FixedAngle: 0
   m_IsKinematic: 0
@@ -4517,7 +4519,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9
+  orthographic size: 10.8361168
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6243,6 +6245,18 @@ Prefab:
     - target: {fileID: 8274122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
       propertyPath: m_Volume
       value: .128000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 5074122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_LinearDrag
+      value: .349999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: orthographic size
+      value: 10.8361168
+      objectReference: {fileID: 0}
+    - target: {fileID: 5074122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
