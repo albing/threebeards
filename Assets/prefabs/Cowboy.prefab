@@ -281,6 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 159714, guid: 426eef58e0f20468e9580d96b0979f26, type: 2}
+  fireSound: {fileID: 8300000, guid: 0c13cf836fae64711a573bef58a7971b, type: 3}
 --- !u!114 &11474124
 MonoBehaviour:
   m_ObjectHideFlags: 1
