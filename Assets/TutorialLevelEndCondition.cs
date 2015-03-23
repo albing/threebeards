@@ -36,7 +36,7 @@ public class TutorialLevelEndCondition : MonoBehaviour {
 		scoreText.SetActive(false);
 	}
 
-	private void unhalt()
+	public void unhalt()
 	{
 		Time.timeScale = 1.0f;
 	}
