@@ -13,4 +13,11 @@ public class LevelChangeScript : MonoBehaviour {
 	{
 		Application.LoadLevel ("Level Select");
 	}
+
+	public void LevelOne()
+	{
+		Shoot.score = 0;
+
+		Application.LoadLevel ("Level 1");
+	}
 }
