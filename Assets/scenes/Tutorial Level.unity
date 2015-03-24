@@ -897,7 +897,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
 --- !u!224 &172476667
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3891,6 +3891,7 @@ GameObject:
   - 224: {fileID: 1158751975}
   - 222: {fileID: 1158751977}
   - 114: {fileID: 1158751976}
+  - 114: {fileID: 1158751978}
   m_Layer: 5
   m_Name: Health Bar
   m_TagString: healthbar
@@ -3910,10 +3911,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1664535338}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 158, y: 175}
-  m_SizeDelta: {x: -240, y: -370}
+  m_AnchorMin: {x: .320000023, y: .900000036}
+  m_AnchorMax: {x: .838000059, y: .900000036}
+  m_AnchoredPosition: {x: -2, y: 15}
+  m_SizeDelta: {x: 1, y: 30}
   m_Pivot: {x: 7.4505806e-09, y: .5}
 --- !u!114 &1158751976
 MonoBehaviour:
@@ -3942,6 +3943,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1158751974}
+--- !u!114 &1158751978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1158751974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f136df2a1d346f58e40526b6fef583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1205160315
 Prefab:
   m_ObjectHideFlags: 0

@@ -23,5 +23,7 @@ public class cowboyMove : MonoBehaviour {
 			a.SetBool ("reload", true);
 		else if(a.GetBool ("reload"))
 			a.SetBool ("reload", false);
+		
+		GetComponent<Animator> ().SetFloat ("Speed", rigidbody2D.velocity.magnitude);
 	}
 }
