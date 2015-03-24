@@ -50,6 +50,7 @@
      <Compile Include="Assets\scripts\AreaTrigger.cs" />
      <Compile Include="Assets\scripts\EnemyManager.cs" />
      <Compile Include="Assets\scripts\GenerateGrass.cs" />
+     <Compile Include="Assets\scripts\HealthBar.cs" />
      <Compile Include="Assets\scripts\LevelChangeScript.cs" />
      <Compile Include="Assets\scripts\MakeBullets.cs" />
      <Compile Include="Assets\scripts\MousePoint.cs" />
