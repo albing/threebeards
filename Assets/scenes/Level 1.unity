@@ -966,7 +966,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 4b4baece4884e4bb2904ce808cea7e1c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: .100000001
-  m_Pitch: .400000006
+  m_Pitch: .300000012
   Loop: 1
   Mute: 0
   Priority: 128
@@ -1022,15 +1022,15 @@ AudioReverbZone:
   m_Enabled: 1
   m_MinDistance: 20
   m_MaxDistance: 20
-  m_ReverbPreset: 23
+  m_ReverbPreset: 26
   m_Room: -1000
-  m_RoomHF: -4000
-  m_DecayTime: 1.49000001
-  m_DecayHFRatio: .100000001
-  m_Reflections: -449
-  m_ReflectionsDelay: .00700000022
-  m_Reverb: 1700
-  m_ReverbDelay: .0109999999
+  m_RoomHF: -151
+  m_DecayTime: 7.55999994
+  m_DecayHFRatio: .910000026
+  m_Reflections: -626
+  m_ReflectionsDelay: .0199999996
+  m_Reverb: 774
+  m_ReverbDelay: .0299999993
   m_HFReference: 5000
   m_RoomRolloffFactor: 0
   m_Diffusion: 100
