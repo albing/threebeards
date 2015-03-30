@@ -4,6 +4,14 @@ using System.Collections;
 public class RockOfDoomTrigger : MonoBehaviour {
 
 	public GameObject enemy;
+	public GameObject usaFlag;
+	public GameObject cadFlag;
+	private bool hasBeenTriggered = false;
+	private Object flag;
+	
+	void Start(){
+		flag = Instantiate(cadFlag);
+	}
 
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.name == "Cowboy")
@@ -14,6 +22,11 @@ public class RockOfDoomTrigger : MonoBehaviour {
 				Instantiate (enemy, spawn.transform.position, spawn.transform.rotation);
 			}
 			GameObject.Find("EnemyManager").SendMessage("StartSpawning");
+			if(!hasBeenTriggered)
+			{
+				DestroyObject(flag);
+				flag = Instantiate(usaFlag);
+			}
 		}
 	}
 

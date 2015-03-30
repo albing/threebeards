@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &130228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 430228}
+  - 212: {fileID: 21230228}
+  - 60: {fileID: 6030228}
+  m_Layer: 13
+  m_Name: Rock of Doom prefab
+  m_TagString: scenery
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &130230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22430228}
+  - 114: {fileID: 11430228}
+  - 61: {fileID: 6130228}
+  m_Layer: 0
+  m_Name: RockOfDoomTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &430228
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130228}
+  m_LocalRotation: {x: 0, y: 0, z: .0673502162, w: .997729421}
+  m_LocalPosition: {x: 16.3899994, y: 30.0799999, z: -.100000001}
+  m_LocalScale: {x: 3.65922976, y: 3.65923047, z: 3.65923071}
+  m_Children:
+  - {fileID: 22430228}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!60 &6030228
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130228}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: .170292869, y: .0969518796}
+      - {x: .0938280746, y: .228710935}
+      - {x: -.133940682, y: .171613008}
+      - {x: -.256628096, y: .179687023}
+      - {x: -.225545973, y: .0629547089}
+      - {x: -.323593795, y: -.017460946}
+      - {x: -.323593795, y: -.10308595}
+      - {x: -.280781299, y: -.188710943}
+      - {x: -.130937546, y: -.210117191}
+      - {x: .232968703, y: -.210117191}
+      - {x: .297187448, y: -.178007826}
+      - {x: .329296827, y: -.124492198}
+      - {x: .325861692, y: -.0534916967}
+--- !u!61 &6130228
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130230}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 4.38771248, y: 2.49457932}
+  m_Center: {x: 1.69385624, y: -.747289658}
+--- !u!114 &11430228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3a0fce972c0bb4b8dcc425e60d9c2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 145246, guid: fb884ed9eb2215f47ab921bbf47fe1d7, type: 2}
+  usaFlag: {fileID: 0}
+  cadFlag: {fileID: 0}
+--- !u!212 &21230228
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130228}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 142979969
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300068, guid: b160d41f015834dafa2bbf1780417dda, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!224 &22430228
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130230}
+  m_LocalRotation: {x: 0, y: 0, z: -.0673502162, w: .997729421}
+  m_LocalPosition: {x: 0, y: 0, z: .0273281485}
+  m_LocalScale: {x: .273281544, y: .273281515, z: .273281485}
+  m_Children: []
+  m_Father: {fileID: 430228}
+  m_RootOrder: 0
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: -.386917114, y: .278617859}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: .5, y: .5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 130228}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
