@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/cowboyMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/RockOfDoomTrigger.cs">
     <Files>
-      <File FileName="Assets/scripts/HealthBar.cs" Line="7" Column="4" />
-      <File FileName="Assets/scripts/cowboyMove.cs" Line="27" Column="80" />
+      <File FileName="Assets/scripts/RockOfDoomTrigger.cs" Line="21" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
