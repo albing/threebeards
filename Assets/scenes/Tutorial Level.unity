@@ -5194,11 +5194,15 @@ Prefab:
     - target: {fileID: 11421970, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2115763833}
+      objectReference: {fileID: 2115763839}
     - target: {fileID: 11421970, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2115763838}
+    - target: {fileID: 11421970, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: levelSelectScreen
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
   m_RootGameObject: {fileID: 1664535337}
@@ -6057,8 +6061,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2115763833}
-        m_MethodName: 
+      - m_Target: {fileID: 2115763839}
+        m_MethodName: levelSelectScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
