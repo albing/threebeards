@@ -29,17 +29,16 @@ public class RockOfDoomTrigger : MonoBehaviour {
 			{
 				DestroyObject(flag);
 				flag = Instantiate(usaFlag);
+				hasBeenTriggered = true;
 				fence = Instantiate (verticalFence);
 			}
 		}
 	}
 
 	void OnTriggerStay2D(Collider2D other){
-		Debug.Log ("Object Stayed in Collider : " + other.name);
 	}
 
 	void OnTriggerExit2D(Collider2D other ) {
-		Debug.Log ("Object Left Collider : " + other.name);
 	}
 
 }

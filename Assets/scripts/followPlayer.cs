@@ -5,14 +5,18 @@ public class followPlayer : MonoBehaviour {
 	
 	public float speed, rotationSpeed;
 	public float acceleration = 10;
+	GameObject player;
 	Transform target;
 	Vector2 last;
-	
+	public float kickBack;
+	public float damage;
+
 	void Awake() {
 	}
 	
 	void Start() {
-		target = GameObject.FindWithTag ("Player").transform;
+		player = GameObject.FindWithTag ("Player");
+		target = player.transform;
 		last = target.position;
 	}
 
@@ -29,4 +33,14 @@ public class followPlayer : MonoBehaviour {
 			rigidbody2D.AddForce(accelVector,ForceMode2D.Impulse);
 		}
 	}
+
+	void OnTriggerEnter2D(Collider2D other) 
+	{
+		if (other.name == "Cowboy") {
+			player.SendMessage("DoDamage",damage);
+			Vector2 hurtVector = new Vector2(last.normalized.x * kickBack,last.normalized.y * kickBack);
+			player.rigidbody2D.AddForce(hurtVector,ForceMode2D.Impulse);
+		}
+	}
+
 }
