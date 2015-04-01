@@ -1,21 +1,27 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class RockOfDoomTrigger : MonoBehaviour {
-
+public class RockOfDoomTriggerLevel1Part1 : MonoBehaviour {
+	
 	public GameObject enemy;
 	public GameObject usaFlag;
 	public GameObject cadFlag;
-	public GameObject verticalFence;
+	public GameObject Trees1;
+	public GameObject Trees2;
+	public GameObject Trees3;
 	private bool hasBeenTriggered = false;
 	private Object flag;
-	private Object fence;
+	private Object tree1;
+	private Object tree2;
+	private Object tree3;
 	
 	void Start(){
 		flag = Instantiate(cadFlag);
-		fence = new Object ();
+		tree1 = new Object ();
+		tree2 = new Object ();
+		tree3 = new Object ();
 	}
-
+	
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.name == "Cowboy")
 		{
@@ -29,17 +35,19 @@ public class RockOfDoomTrigger : MonoBehaviour {
 			{
 				DestroyObject(flag);
 				flag = Instantiate(usaFlag);
-				fence = Instantiate (verticalFence);
+				tree1 = Instantiate (Trees1);
+				tree2 = Instantiate (Trees2);
+				tree3 = Instantiate (Trees3);
 			}
 		}
 	}
-
+	
 	void OnTriggerStay2D(Collider2D other){
 		Debug.Log ("Object Stayed in Collider : " + other.name);
 	}
-
+	
 	void OnTriggerExit2D(Collider2D other ) {
 		Debug.Log ("Object Left Collider : " + other.name);
 	}
-
+	
 }

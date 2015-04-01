@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\RockOfDoomTriggerLevel1Part1.cs">
+    <Files>
+      <File FileName="Assets\scripts\PopUpMessage.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\RockOfDoomTrigger.cs" Line="15" Column="31" />
+      <File FileName="Assets\scripts\RockOfDoomTriggerLevel1Part1.cs" Line="33" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
