@@ -100,8 +100,8 @@ MonoBehaviour:
   speed: 6.57999992
   rotationSpeed: 2.95000005
   acceleration: 3
-  cowboy: {fileID: 0}
   kickBack: 19
+  damage: 10
 --- !u!114 &11465370
 MonoBehaviour:
   m_ObjectHideFlags: 1
