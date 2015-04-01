@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class RockOfDoomTriggerLevel1Part1 : MonoBehaviour {
+public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 	
 	public GameObject enemy;
 	public GameObject usaFlag;
@@ -25,14 +25,14 @@ public class RockOfDoomTriggerLevel1Part1 : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.name == "Cowboy")
 		{
-			if (Shoot.score < 51)
+			if (Shoot.score < 101)
 			{
-				GameObject[] spawns = GameObject.FindGameObjectsWithTag ("enemyspawn");
+				GameObject[] spawns = GameObject.FindGameObjectsWithTag ("enemyspawn2");
 				foreach(var spawn in spawns)
 				{
 					Instantiate (enemy, spawn.transform.position, spawn.transform.rotation);
 				}
-				GameObject.Find("EnemyManager").SendMessage("StartSpawning");
+				GameObject.Find("EnemyManager2").SendMessage("StartSpawning");
 				if(!hasBeenTriggered)
 				{
 					DestroyObject(flag);
