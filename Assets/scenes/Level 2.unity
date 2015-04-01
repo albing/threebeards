@@ -204,7 +204,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9
+  orthographic size: 10.8361168
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -263,6 +263,10 @@ Prefab:
       propertyPath: m_Mass
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 11405430, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 444728080}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
   m_RootGameObject: {fileID: 1594763486}
@@ -506,10 +510,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 188210705}
   m_RootOrder: 2
-  m_AnchorMin: {x: .320000023, y: .900000036}
-  m_AnchorMax: {x: .838000059, y: .900000036}
-  m_AnchoredPosition: {x: -2, y: 15}
-  m_SizeDelta: {x: 1, y: 30}
+  m_AnchorMin: {x: .5, y: 0}
+  m_AnchorMax: {x: .5, y: 0}
+  m_AnchoredPosition: {x: -314, y: 37}
+  m_SizeDelta: {x: 630, y: 30}
   m_Pivot: {x: 7.4505806e-09, y: .5}
 --- !u!114 &444728082
 MonoBehaviour:
@@ -842,6 +846,34 @@ Prefab:
     - target: {fileID: 11421976, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22421986, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
+      propertyPath: m_AnchorMin.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22421986, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22421986, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
+      propertyPath: m_AnchorMax.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22421986, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22421986, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -314
+      objectReference: {fileID: 0}
+    - target: {fileID: 22421986, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 22421986, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 630
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d687e547e7cb0416c8a26ca3bfef336a, type: 2}
@@ -1291,6 +1323,7 @@ GameObject:
   - 61: {fileID: 1594763489}
   - 114: {fileID: 1594763488}
   - 82: {fileID: 1594763487}
+  - 114: {fileID: 1594763494}
   m_Layer: 13
   m_Name: Cowboy
   m_TagString: Player
@@ -1309,7 +1342,7 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 4b4baece4884e4bb2904ce808cea7e1c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .187999994
+  m_Volume: .128000006
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1453,6 +1486,19 @@ Transform:
   - {fileID: 101257995}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1594763494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11405430, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
+    type: 2}
+  m_PrefabInternal: {fileID: 117262361}
+  m_GameObject: {fileID: 1594763486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55aa56aef89e3f54a90072fd7f8749ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 444728080}
 --- !u!1 &1654872628
 GameObject:
   m_ObjectHideFlags: 0
