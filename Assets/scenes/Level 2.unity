@@ -267,6 +267,14 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 444728080}
+    - target: {fileID: 8274122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: Pan2D
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+      propertyPath: m_Pitch
+      value: 1.71000004
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
   m_RootGameObject: {fileID: 1594763486}
@@ -1343,14 +1351,14 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 4b4baece4884e4bb2904ce808cea7e1c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: .128000006
-  m_Pitch: 1
+  m_Pitch: 1.71000004
   Loop: 1
   Mute: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 20
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: -0
   rolloffMode: 0
   BypassEffects: 1
   BypassListenerEffects: 1
