@@ -14,6 +14,7 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 	private Object tree1;
 	private Object tree2;
 	private Object tree3;
+	private static int maxScore = 1000;
 	
 	void Start(){
 		flag = Instantiate(cadFlag);
@@ -25,7 +26,7 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.name == "Cowboy")
 		{
-			if (Shoot.score < 101)
+			if (Shoot.score < maxScore)
 			{
 				GameObject[] spawns = GameObject.FindGameObjectsWithTag ("enemyspawn2");
 				foreach(var spawn in spawns)
@@ -35,11 +36,13 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 				GameObject.Find("EnemyManager2").SendMessage("StartSpawning");
 				if(!hasBeenTriggered)
 				{
+					maxScore = Shoot.score + 51;
 					DestroyObject(flag);
 					flag = Instantiate(usaFlag);
 					tree1 = Instantiate (Trees1);
 					tree2 = Instantiate (Trees2);
 					tree3 = Instantiate (Trees3);
+					hasBeenTriggered = true;
 				}
 			}
 		}

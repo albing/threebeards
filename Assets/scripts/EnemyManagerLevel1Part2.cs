@@ -8,9 +8,10 @@ public class EnemyManagerLevel1Part2 : MonoBehaviour {
 	public float spawnTime = 1f;
 	public List<Transform> spawnPoints;
 	public bool enableSpawning = false;
+	private static int maxScore = 1000;
 	
 	void Start () {
-		if (Shoot.score < 101) {
+		if (Shoot.score < maxScore) {
 			InvokeRepeating ("Spawn", spawnTime, spawnTime);
 			var spawns = GameObject.FindGameObjectsWithTag ("enemyspawn2");
 			foreach (var spawn in spawns) {
@@ -20,7 +21,7 @@ public class EnemyManagerLevel1Part2 : MonoBehaviour {
 	}
 	
 	void Spawn () {
-		if (Shoot.score > 99) {
+		if (Shoot.score > maxScore - 2) {
 			StopSpawning ();
 		}
 		if ( enableSpawning )
@@ -36,6 +37,7 @@ public class EnemyManagerLevel1Part2 : MonoBehaviour {
 	
 	void StartSpawning()
 	{
+		maxScore = Shoot.score + 51;
 		enableSpawning = true;
 	}
 	

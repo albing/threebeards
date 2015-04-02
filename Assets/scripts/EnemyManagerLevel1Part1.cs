@@ -14,9 +14,10 @@ public class EnemyManagerLevel1Part1 : MonoBehaviour {
 	private Object tree1;
 	private Object tree2;
 	private Object tree3;
+	private static int maxScore = 1000;
 	
 	void Start () {
-		if (Shoot.score < 51) {
+		if (Shoot.score < maxScore) {
 						tree1 = Instantiate (Trees1);
 						tree2 = Instantiate (Trees2);
 						tree3 = Instantiate (Trees3);
@@ -29,7 +30,7 @@ public class EnemyManagerLevel1Part1 : MonoBehaviour {
 	}
 	
 	void Spawn () {
-		if (Shoot.score > 49) {
+		if (Shoot.score > maxScore - 2) {
 			StopSpawning ();
 			DestroyObject (tree1);
 			DestroyObject (tree2);
@@ -48,6 +49,7 @@ public class EnemyManagerLevel1Part1 : MonoBehaviour {
 	
 	void StartSpawning()
 	{
+		maxScore = Shoot.score + 51;
 		enableSpawning = true;
 	}
 	
