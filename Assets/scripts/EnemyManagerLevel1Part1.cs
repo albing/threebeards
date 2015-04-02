@@ -8,15 +8,18 @@ public class EnemyManagerLevel1Part1 : MonoBehaviour {
 	public GameObject Trees1;
 	public GameObject Trees2;
 	public GameObject Trees3;
+	private GameObject rodTrig;
 	public float spawnTime = 1f;
 	public List<Transform> spawnPoints;
 	public bool enableSpawning = false;
 	private Object tree1;
 	private Object tree2;
 	private Object tree3;
+	public bool lightIlluminated = false;
 	private static int maxScore = 1000;
 	
 	void Start () {
+		rodTrig = GameObject.FindGameObjectWithTag ("rockofdoomtrigger1");
 		if (Shoot.score < maxScore) {
 						tree1 = Instantiate (Trees1);
 						tree2 = Instantiate (Trees2);
@@ -31,10 +34,15 @@ public class EnemyManagerLevel1Part1 : MonoBehaviour {
 	
 	void Spawn () {
 		if (Shoot.score > maxScore - 2) {
-			StopSpawning ();
-			DestroyObject (tree1);
-			DestroyObject (tree2);
-			DestroyObject (tree3);
+			if (!lightIlluminated)
+			{
+				StopSpawning ();
+				DestroyObject (tree1);
+				DestroyObject (tree2);
+				DestroyObject (tree3);
+				rodTrig.SendMessage ("BeatSection");
+			}
+			lightIlluminated = true;
 		}
 		if ( enableSpawning )
 		{

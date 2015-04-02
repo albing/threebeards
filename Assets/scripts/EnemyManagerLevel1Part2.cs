@@ -8,9 +8,12 @@ public class EnemyManagerLevel1Part2 : MonoBehaviour {
 	public float spawnTime = 1f;
 	public List<Transform> spawnPoints;
 	public bool enableSpawning = false;
+	public bool lightIlluminated = false;
 	private static int maxScore = 1000;
+	private GameObject rodTrig;
 	
 	void Start () {
+		rodTrig = GameObject.FindGameObjectWithTag ("rockofdoomtrigger2");
 		if (Shoot.score < maxScore) {
 			InvokeRepeating ("Spawn", spawnTime, spawnTime);
 			var spawns = GameObject.FindGameObjectsWithTag ("enemyspawn2");
@@ -22,7 +25,12 @@ public class EnemyManagerLevel1Part2 : MonoBehaviour {
 	
 	void Spawn () {
 		if (Shoot.score > maxScore - 2) {
-			StopSpawning ();
+			if (!lightIlluminated)
+			{
+				StopSpawning ();
+				rodTrig.SendMessage ("BeatSection");
+			}
+			lightIlluminated = true;
 		}
 		if ( enableSpawning )
 		{
