@@ -3,7 +3,7 @@ using System.Collections;
 
 public class HealthManager : MonoBehaviour {
 
-	float health = 100;
+	public static float health = 100;
 	public GameObject healthBar;
 
 	// Use this for initialization
@@ -12,7 +12,8 @@ public class HealthManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		healthBar.SendMessage ("setHealth", health);
+		if (health > 0)
+			healthBar.SendMessage ("setHealth", health);
 	}
 
 	public float GetHealth()

@@ -12,6 +12,7 @@ public class RockOfDoomTrigger : MonoBehaviour {
 	private Object fence;
 	
 	void Start(){
+		cadFlag.transform.position = new Vector2 (16.5f, 31.49f);
 		flag = Instantiate(cadFlag);
 		fence = new Object ();
 	}
@@ -28,6 +29,7 @@ public class RockOfDoomTrigger : MonoBehaviour {
 			if(!hasBeenTriggered)
 			{
 				DestroyObject(flag);
+				usaFlag.transform.position = new Vector2 (16.5f, 31.49f);
 				flag = Instantiate(usaFlag);
 				hasBeenTriggered = true;
 				fence = Instantiate (verticalFence);
