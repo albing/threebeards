@@ -5,9 +5,15 @@ using System.Collections.Generic;
 public class EnemyManagerLevel1Part2 : MonoBehaviour {
 	
 	public GameObject enemy;
+	public GameObject Trees1;
+	public GameObject Trees2;
+	public GameObject Trees3;
 	public float spawnTime = 1f;
 	public List<Transform> spawnPoints;
 	public bool enableSpawning = false;
+	private Object tree1;
+	private Object tree2;
+	private Object tree3;
 	public bool lightIlluminated = false;
 	private static int maxScore = 1000;
 	private GameObject rodTrig;
@@ -15,6 +21,9 @@ public class EnemyManagerLevel1Part2 : MonoBehaviour {
 	void Start () {
 		rodTrig = GameObject.FindGameObjectWithTag ("rockofdoomtrigger2");
 		if (Shoot.score < maxScore) {
+			tree1 = Instantiate (Trees1);
+			tree2 = Instantiate (Trees2);
+			tree3 = Instantiate (Trees3);
 			InvokeRepeating ("Spawn", spawnTime, spawnTime);
 			var spawns = GameObject.FindGameObjectsWithTag ("enemyspawn2");
 			foreach (var spawn in spawns) {
@@ -28,6 +37,9 @@ public class EnemyManagerLevel1Part2 : MonoBehaviour {
 			if (!lightIlluminated)
 			{
 				StopSpawning ();
+				DestroyObject (tree1);
+				DestroyObject (tree2);
+				DestroyObject (tree3);
 				rodTrig.SendMessage ("BeatSection");
 			}
 			lightIlluminated = true;
