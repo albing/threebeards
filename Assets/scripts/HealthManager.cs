@@ -6,6 +6,11 @@ public class HealthManager : MonoBehaviour {
 	public static float health = 100;
 	public GameObject healthBar;
 
+	// Use this for initialization
+	void Start () {
+	}
+	
+	// Update is called once per frame
 	void Update () {
 		if (health > 0)
 			healthBar.SendMessage ("setHealth", health);
