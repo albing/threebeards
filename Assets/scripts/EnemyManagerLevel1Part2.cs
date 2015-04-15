@@ -16,6 +16,7 @@ public class EnemyManagerLevel1Part2 : MonoBehaviour {
 	private Object tree3;
 	public bool lightIlluminated = false;
 	private static int maxScore = 1000;
+
 	private GameObject rodTrig;
 	
 	void Start () {
@@ -41,6 +42,8 @@ public class EnemyManagerLevel1Part2 : MonoBehaviour {
 				DestroyObject (tree2);
 				DestroyObject (tree3);
 				rodTrig.SendMessage ("BeatSection");
+				KillsRemainingUpdater.KillsRemainingText.SetActive (false);
+				Shoot.killsRemaining = 50;
 			}
 			lightIlluminated = true;
 		}

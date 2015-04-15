@@ -15,11 +15,12 @@ public class EnemyManagerLevel1Part1 : MonoBehaviour {
 	private Object tree1;
 	private Object tree2;
 	private Object tree3;
-	public bool lightIlluminated = false;
+	public bool lightIlluminated;
 	private static int maxScore = 1000;
 	
 	void Start () {
 		rodTrig = GameObject.FindGameObjectWithTag ("rockofdoomtrigger1");
+		lightIlluminated = false;
 		if (Shoot.score < maxScore) {
 						tree1 = Instantiate (Trees1);
 						tree2 = Instantiate (Trees2);
@@ -41,6 +42,8 @@ public class EnemyManagerLevel1Part1 : MonoBehaviour {
 				DestroyObject (tree2);
 				DestroyObject (tree3);
 				rodTrig.SendMessage ("BeatSection");
+				KillsRemainingUpdater.KillsRemainingText.SetActive (false);
+				Shoot.killsRemaining = 50;
 			}
 			lightIlluminated = true;
 		}

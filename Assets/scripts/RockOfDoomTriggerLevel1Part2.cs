@@ -35,6 +35,7 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 		{
 			if (Shoot.score < maxScore)
 			{
+				KillsRemainingUpdater.KillsRemainingText.SetActive (true);
 				GameObject[] spawns = GameObject.FindGameObjectsWithTag ("enemyspawn2");
 				foreach(var spawn in spawns)
 				{
