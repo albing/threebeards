@@ -11,13 +11,14 @@ public class followPlayer : MonoBehaviour {
 	public float kickBack;
 	public float damage;
 
-	void Awake() {
-	}
-	
-	void Start() {
+	// should not use Start() here because it is only run once, and if a player is created
+	// late in the scene, this will not follow it.  OnEnable() is called every time.
+	void OnEnable() {
 		player = GameObject.FindWithTag ("Player");
-		target = player.transform;
-		last = target.position;
+		if(player != null) {
+			target = player.transform;
+			last = target.position;
+		}
 	}
 
 	void FixedUpdate(){

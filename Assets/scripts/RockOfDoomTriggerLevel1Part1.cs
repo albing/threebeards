@@ -60,11 +60,11 @@ public class RockOfDoomTriggerLevel1Part1 : MonoBehaviour {
 	}
 	
 	void OnTriggerStay2D(Collider2D other){
-		Debug.Log ("Object Stayed in Collider : " + other.name);
+//		Debug.Log ("Object Stayed in Collider : " + other.name);
 	}
 	
 	void OnTriggerExit2D(Collider2D other ) {
-		Debug.Log ("Object Left Collider : " + other.name);
+//		Debug.Log ("Object Left Collider : " + other.name);
 	}
 
 	public void BeatSection()
