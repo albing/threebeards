@@ -3010,8 +3010,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 236828258}
   - 212: {fileID: 236828264}
-  - 114: {fileID: 236828260}
-  - 114: {fileID: 236828259}
   - 95: {fileID: 236828262}
   - 114: {fileID: 236828261}
   - 58: {fileID: 236828263}
@@ -3039,34 +3037,6 @@ Transform:
   - {fileID: 1344312990}
   m_Father: {fileID: 0}
   m_RootOrder: 17
---- !u!114 &236828259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11405430, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
-    type: 2}
-  m_PrefabInternal: {fileID: 456295732}
-  m_GameObject: {fileID: 236828257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55aa56aef89e3f54a90072fd7f8749ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthBar: {fileID: 1143479760}
---- !u!114 &236828260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076,
-    type: 2}
-  m_PrefabInternal: {fileID: 456295732}
-  m_GameObject: {fileID: 236828257}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fb64713804614dbea0abb0cd61f9f1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  acceleration: 1
-  groundFriction: 90
 --- !u!114 &236828261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5603,6 +5573,8 @@ Prefab:
     - {fileID: 9574122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
     - {fileID: 5074122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
     - {fileID: 6174122, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+    - {fileID: 11405430, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
+    - {fileID: 11474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
   m_RootGameObject: {fileID: 236828257}
   m_IsPrefabParent: 0
@@ -7920,9 +7892,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1779902182}
   m_RootOrder: 4
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 659, y: -25}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -125, y: -25}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &748175478
@@ -7958,7 +7930,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 2
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
