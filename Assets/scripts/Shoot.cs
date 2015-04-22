@@ -33,17 +33,9 @@ public class Shoot : MonoBehaviour {
 			Destroy (this.gameObject);
 		else if (other.gameObject.tag == "boss") 
 		{
-			if (bossHealth > 0)
-			{
-				bossHealth--;
-				Destroy(this.gameObject);
-			}
-			else
-			{
-				score += 25;
-				Destroy(other.gameObject);
-				Destroy(this.gameObject);
-			}
+			other.gameObject.SendMessage("DoDamage",7.0);
+
+			Destroy(this.gameObject);
 		}
 	}
 }

@@ -13,7 +13,6 @@ public class Level1IntroCutscene : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.X))
 		{
 			EndCutscene();
-			cutsceneCanvas.gameObject.SetActive(false);
 		}
 	}
 
@@ -25,6 +24,7 @@ public class Level1IntroCutscene : MonoBehaviour {
 
 	public void EndCutscene()
 	{
+		cutsceneCanvas.gameObject.SetActive(false);
 		playableCowboy.SetActive (true);
 		this.gameObject.SetActive (false);
 		beavers.SetActive (true);

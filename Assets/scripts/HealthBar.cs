@@ -12,9 +12,8 @@ public class HealthBar : MonoBehaviour {
 		xScaleFactor = scale.x;
 	}
 
-	void setHealth(float health)
+	void SetHealth(float health)
 	{
-		Debug.Log (health);
 		scale.x = (health / 100) * xScaleFactor;
 		transform.localScale = scale;
 	}

@@ -6,8 +6,10 @@ public class LevelOneEndCondition : MonoBehaviour {
 	// have to make this one public because it starts out as inactive
 	public GameObject victoryPanel;
 	public GameObject deadPanel;
-
-	private GameObject healthBar;
+	public HealthManager playerHealth;
+	public GameObject boss;
+	public GameObject playerHealthBar;
+	
 	private GameObject scoreText;
 	private bool halted = false;
 	private bool dead = false;
@@ -15,21 +17,20 @@ public class LevelOneEndCondition : MonoBehaviour {
 	
 	void Start() {
 		scoreText = GameObject.Find ("Score Text");
-		healthBar = GameObject.FindGameObjectWithTag ("healthbar");
 		unhalt ();
 	}
 	
 	// TODO: OnPauseGame event: 
 	// http://answers.unity3d.com/questions/7544/how-do-i-pause-my-game.html
 	void Update() {
-		if(Shoot.score >= 200 && !halted) // this will need to be changed later.
+		if(boss == null && !halted)
 		{
 			halted = !halted;
 			beatLevel = true;
 			halt ();
 		}
 		
-		if (HealthManager.health <= 0 && !halted) {
+		if (playerHealth.health <= 0 && !halted) {
 			halted = !halted;
 			dead = true;
 			halt ();
@@ -46,7 +47,7 @@ public class LevelOneEndCondition : MonoBehaviour {
 		if (dead)
 			deadPanel.SetActive (true);
 
-		healthBar.SetActive (false);
+		playerHealthBar.SetActive (false);
 		scoreText.SetActive(false);
 	}
 	

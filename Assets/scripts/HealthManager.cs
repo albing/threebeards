@@ -3,12 +3,12 @@ using System.Collections;
 
 public class HealthManager : MonoBehaviour {
 
-	public static float health = 100;
+	public float health = 100f;
 	public GameObject healthBar;
 
 	void Update () {
-		if (health > 0)
-			healthBar.SendMessage ("setHealth", health);
+		if (health > 0 && healthBar != null && healthBar.gameObject.activeInHierarchy)
+			healthBar.SendMessage ("SetHealth", health);
 	}
 
 	public float GetHealth()
@@ -22,7 +22,6 @@ public class HealthManager : MonoBehaviour {
 		if (health <= 0) {
 			Die ();
 		}
-
 	}
 
 	public void DoDamage(float damage)
@@ -35,6 +34,7 @@ public class HealthManager : MonoBehaviour {
 
 	void Die()
 	{
-		Debug.Log ("You are dead. Sorry your body didn't get the message");
+		if(!CompareTag("Player"))
+			GameObject.Destroy(gameObject);
 	}
 }

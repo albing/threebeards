@@ -6,6 +6,7 @@ public class TutorialLevelEndCondition : MonoBehaviour {
 	// have to make this one public because it starts out as inactive
 	public GameObject victoryPanel;
 	public GameObject deadPanel;
+	public HealthManager playerHealth;
 
 	private GameObject scoreText, messageCanvas, healthBar;
 	private bool halted = false;
@@ -26,14 +27,14 @@ public class TutorialLevelEndCondition : MonoBehaviour {
 		{
 			halted = !halted;
 			beatLevel = true;
-			HealthManager.health = 0;
+			playerHealth.health = 0;
 			halt ();
 		}
 
-		if (HealthManager.health <= 0 && !halted) {
+		if (playerHealth.health <= 0 && !halted) {
 			halted = !halted;
 			dead = true;
-			HealthManager.health = 0;
+			playerHealth.health = 0;
 			halt ();
 		}
 	}

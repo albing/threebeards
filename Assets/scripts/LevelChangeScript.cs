@@ -3,10 +3,12 @@ using System.Collections;
 
 public class LevelChangeScript : MonoBehaviour {
 
+	public HealthManager playerHealth;
+
 	public void tutorialLevel()
 	{
 		Shoot.score = 0;
-		HealthManager.health = 100;
+		playerHealth.SetHealth(100);
 		Application.LoadLevel ("Tutorial Level");;
 	}
 
@@ -18,13 +20,13 @@ public class LevelChangeScript : MonoBehaviour {
 	public void LevelOne()
 	{
 		Shoot.score = 0;
-		HealthManager.health = 100;
+		playerHealth.SetHealth(100);
 		Application.LoadLevel ("Level 1");
 	}
 	public void LevelTwo()
 	{
 		Shoot.score = 0;
-		HealthManager.health = 100;
+		playerHealth.SetHealth(100);
 		Application.LoadLevel ("Level 2");
 	}
 }
