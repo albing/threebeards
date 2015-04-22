@@ -11,6 +11,7 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 	public GameObject Trees3;
 	public GameObject redLight;
 	public GameObject blueLight;
+	private GameObject boss;
 	private bool hasBeenTriggered = false;
 	private Object flag;
 	private Object tree1;
@@ -28,6 +29,9 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 		tree3 = new Object ();
 		red = new Object ();
 		blue = new Object ();
+
+		boss = GameObject.FindGameObjectWithTag ("boss");
+		boss.SetActive (false);
 	}
 	
 	void OnTriggerEnter2D(Collider2D other) {
@@ -72,5 +76,6 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 		blueLight.transform.position = new Vector3 (-0.8f, -27.9f, -1.7f);
 		DestroyObject (red);
 		blue = Instantiate (blueLight);
+		boss.SetActive (true);
 	}
 }
