@@ -4,6 +4,7 @@ using System.Collections;
 public class Level1IntroCutscene : MonoBehaviour {
 	
 	public GameObject playableCowboy, beavers;
+	public GameObject boat;
 	public Canvas canvas;
 	public Canvas cutsceneCanvas;
 	public LevelOneEndCondition endCondition;
@@ -32,5 +33,7 @@ public class Level1IntroCutscene : MonoBehaviour {
 		var canv = GameObject.Find ("Message Canvas");
 		if (canv)
 			Destroy (canv);
+		boat.transform.position = new Vector2 (-25.0f, -60.0f);
+		Instantiate (boat);
 	}
 }

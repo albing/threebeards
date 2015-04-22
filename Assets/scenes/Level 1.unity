@@ -3050,6 +3050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playableCowboy: {fileID: 100143820}
   beavers: {fileID: 1640174965}
+  boat: {fileID: 104564, guid: f40e9bae7fcd6c54d880263912c517fd, type: 2}
   canvas: {fileID: 1779902185}
   cutsceneCanvas: {fileID: 2108156669}
   endCondition: {fileID: 550460639}
@@ -17842,7 +17843,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22494228, guid: 6afda36d356324a71ad63a4979fc396f, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 22494228, guid: 6afda36d356324a71ad63a4979fc396f, type: 2}
       propertyPath: m_AnchoredPosition.x
