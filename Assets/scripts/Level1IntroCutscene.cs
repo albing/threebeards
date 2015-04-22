@@ -5,12 +5,14 @@ public class Level1IntroCutscene : MonoBehaviour {
 	
 	public GameObject playableCowboy, beavers;
 	public Canvas canvas;
+	public Canvas cutsceneCanvas;
 	public LevelOneEndCondition endCondition;
 
 	void Update() {
 		if(Input.GetKeyDown(KeyCode.X))
 		{
 			EndCutscene();
+			cutsceneCanvas.gameObject.SetActive(false);
 		}
 	}
 
@@ -27,5 +29,8 @@ public class Level1IntroCutscene : MonoBehaviour {
 		beavers.SetActive (true);
 		canvas.gameObject.SetActive (true);
 		endCondition.enabled = true;
+		var canv = GameObject.Find ("Message Canvas");
+		if (canv)
+			Destroy (canv);
 	}
 }
