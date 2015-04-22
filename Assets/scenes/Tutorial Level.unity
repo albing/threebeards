@@ -510,6 +510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55aa56aef89e3f54a90072fd7f8749ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
   healthBar: {fileID: 2068434710}
 --- !u!1 &111940972
 GameObject:
@@ -8850,6 +8851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   victoryPanel: {fileID: 1377756997}
   deadPanel: {fileID: 977266052}
+  playerHealth: {fileID: 91687980}
 --- !u!114 &2115763839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8861,6 +8863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a833f227e19f48a4a5d73ed9b2df538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: {fileID: 91687980}
 --- !u!1 &2120424019
 GameObject:
   m_ObjectHideFlags: 0

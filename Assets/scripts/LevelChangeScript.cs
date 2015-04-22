@@ -8,7 +8,8 @@ public class LevelChangeScript : MonoBehaviour {
 	public void tutorialLevel()
 	{
 		Shoot.score = 0;
-		playerHealth.SetHealth(100);
+		if(playerHealth)
+			playerHealth.SetHealth(100);
 		Application.LoadLevel ("Tutorial Level");;
 	}
 
@@ -20,13 +21,15 @@ public class LevelChangeScript : MonoBehaviour {
 	public void LevelOne()
 	{
 		Shoot.score = 0;
-		playerHealth.SetHealth(100);
+		if(playerHealth)
+			playerHealth.SetHealth(100);
 		Application.LoadLevel ("Level 1");
 	}
 	public void LevelTwo()
 	{
 		Shoot.score = 0;
-		playerHealth.SetHealth(100);
+		if(playerHealth)
+			playerHealth.SetHealth(100);
 		Application.LoadLevel ("Level 2");
 	}
 }
