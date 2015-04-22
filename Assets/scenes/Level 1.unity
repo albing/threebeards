@@ -3051,6 +3051,7 @@ MonoBehaviour:
   playableCowboy: {fileID: 100143820}
   beavers: {fileID: 1640174965}
   canvas: {fileID: 1779902185}
+  endCondition: {fileID: 550460639}
 --- !u!95 &236828262
 Animator:
   serializedVersion: 3
@@ -17142,7 +17143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1769359331
 Light:
   m_ObjectHideFlags: 0
@@ -17153,7 +17154,7 @@ Light:
   serializedVersion: 3
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: .400000006
+  m_Intensity: .100000001
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
