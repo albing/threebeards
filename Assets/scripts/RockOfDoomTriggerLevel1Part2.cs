@@ -31,7 +31,7 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 		blue = new Object ();
 
 		boss = GameObject.FindGameObjectWithTag ("boss");
-		boss.SetActive (false);
+//		boss.SetActive (false);
 	}
 	
 	void OnTriggerEnter2D(Collider2D other) {
@@ -61,14 +61,6 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 				}
 			}
 		}
-	}
-	
-	void OnTriggerStay2D(Collider2D other){
-		Debug.Log ("Object Stayed in Collider : " + other.name);
-	}
-	
-	void OnTriggerExit2D(Collider2D other ) {
-		Debug.Log ("Object Left Collider : " + other.name);
 	}
 
 	public void BeatSection()

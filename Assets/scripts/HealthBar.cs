@@ -1,25 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
-/*
- * N.B.: The object this is attached to should be x-scaled at 1
- * 
- */
-
-
 public class HealthBar : MonoBehaviour {
 
 	Vector3 scale;
+	float xScaleFactor;
 
 	void Start()
 	{
-		scale = transform.lossyScale;
+		scale = transform.localScale;
+		xScaleFactor = scale.x;
 	}
 
 	void setHealth(float health)
 	{
-		scale.x = health / 100;
+		Debug.Log (health);
+		scale.x = (health / 100) * xScaleFactor;
 		transform.localScale = scale;
 	}
 }
