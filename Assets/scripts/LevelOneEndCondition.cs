@@ -9,11 +9,13 @@ public class LevelOneEndCondition : MonoBehaviour {
 	public HealthManager playerHealth;
 	public GameObject boss;
 	public GameObject playerHealthBar;
+	public GameObject pausedPanel;
 	
 	private GameObject scoreText;
 	private bool halted = false;
 	private bool dead = false;
 	private bool beatLevel = false;
+	private bool paused = false;
 	
 	void Start() {
 		Shoot.totalEnemiesHit = 0;
@@ -26,6 +28,18 @@ public class LevelOneEndCondition : MonoBehaviour {
 	// TODO: OnPauseGame event: 
 	// http://answers.unity3d.com/questions/7544/how-do-i-pause-my-game.html
 	void Update() {
+		if (paused) 
+		{
+			if (Input.GetKeyDown (KeyCode.Escape) || Input.GetKeyDown (KeyCode.P))
+			{
+				unhalt ();
+			}
+		}
+		else if (Input.GetKeyDown (KeyCode.Escape) || Input.GetKeyDown (KeyCode.P)) 
+		{
+			paused = true;
+			halt ();
+		}
 		if(boss == null && !halted)
 		{
 			halted = !halted;
@@ -50,12 +64,20 @@ public class LevelOneEndCondition : MonoBehaviour {
 		if (dead)
 			deadPanel.SetActive (true);
 
+		if (paused)
+			pausedPanel.SetActive (true);
+
 		playerHealthBar.SetActive (false);
-		scoreText.SetActive(false);
+		if (!paused)
+			scoreText.SetActive(false);
 	}
 	
 	public void unhalt()
 	{
+		paused = false;
+		playerHealthBar.SetActive (true);
+		if (pausedPanel)
+			pausedPanel.SetActive (false);
 		Time.timeScale = 1.0f;;
 	}
 }

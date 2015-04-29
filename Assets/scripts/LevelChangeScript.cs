@@ -32,4 +32,9 @@ public class LevelChangeScript : MonoBehaviour {
 			playerHealth.SetHealth(100);
 		Application.LoadLevel ("Level 2");
 	}
+
+	public void QuitGame()
+	{
+		Application.Quit ();
+	}
 }

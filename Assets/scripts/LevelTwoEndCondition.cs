@@ -8,13 +8,17 @@ public class LevelTwoEndCondition : MonoBehaviour {
 	public GameObject deadPanel;
 	public HealthManager playerHealth;
 	public GameObject playerHealthBar;
+	public GameObject pausedPanel;
 	
 	private GameObject scoreText;
 	private bool halted = false;
 	private bool dead = false;
 	private bool beatLevel = false;
+	private bool paused = false;
 	
 	void Start() {
+		Shoot.totalEnemiesHit = 0;
+		Shoot.totalShotsTaken = 0;
 		scoreText = GameObject.Find ("Score Text");
 		unhalt ();
 	}
@@ -22,7 +26,18 @@ public class LevelTwoEndCondition : MonoBehaviour {
 	// TODO: OnPauseGame event: 
 	// http://answers.unity3d.com/questions/7544/how-do-i-pause-my-game.html
 	void Update() {
-
+		if (paused) 
+		{
+			if (Input.GetKeyDown (KeyCode.Escape) || Input.GetKeyDown (KeyCode.P))
+			{
+				unhalt ();
+			}
+		}
+		else if (Input.GetKeyDown (KeyCode.Escape) || Input.GetKeyDown (KeyCode.P)) 
+		{
+			paused = true;
+			halt ();
+		}
 		if (playerHealth.health <= 0 && !halted) {
 			halted = !halted;
 			dead = true;
@@ -39,13 +54,21 @@ public class LevelTwoEndCondition : MonoBehaviour {
 		
 		if (dead)
 			deadPanel.SetActive (true);
-		
+
+		if (paused)
+			pausedPanel.SetActive (true);
+
 		playerHealthBar.SetActive (false);
-		scoreText.SetActive(false);
+		if (!paused)
+			scoreText.SetActive(false);
 	}
 	
 	public void unhalt()
 	{
+		paused = false;
+		playerHealthBar.SetActive (true);
+		if (pausedPanel)
+			pausedPanel.SetActive (false);
 		Time.timeScale = 1.0f;;
 	}
 }
