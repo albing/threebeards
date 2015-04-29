@@ -31,7 +31,7 @@ public class RockOfDoomTriggerLevel1Part2 : MonoBehaviour {
 		blue = new Object ();
 
 		boss = GameObject.FindGameObjectWithTag ("boss");
-		//boss.SetActive (false);
+		boss.SetActive (false);
 	}
 	
 	void OnTriggerEnter2D(Collider2D other) {
