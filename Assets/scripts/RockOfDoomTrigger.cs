@@ -10,8 +10,10 @@ public class RockOfDoomTrigger : MonoBehaviour {
 	private bool hasBeenTriggered = false;
 	private Object flag;
 	private Object fence;
+	private static int maxScore = 26;
 	
 	void Start(){
+		Shoot.killsRemaining = 20;
 		cadFlag.transform.position = new Vector2 (16.5f, 31.49f);
 		flag = Instantiate(cadFlag);
 		fence = new Object ();
@@ -20,19 +22,23 @@ public class RockOfDoomTrigger : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.name == "Cowboy")
 		{
-			GameObject[] spawns = GameObject.FindGameObjectsWithTag ("enemyspawn");
-			foreach(var spawn in spawns)
+			if (Shoot.score < maxScore)
 			{
-				Instantiate (enemy, spawn.transform.position, spawn.transform.rotation);
-			}
-			GameObject.Find("EnemyManager").SendMessage("StartSpawning");
-			if(!hasBeenTriggered)
-			{
-				DestroyObject(flag);
-				usaFlag.transform.position = new Vector2 (16.5f, 31.49f);
-				flag = Instantiate(usaFlag);
-				hasBeenTriggered = true;
-				fence = Instantiate (verticalFence);
+				KillsRemainingUpdater.KillsRemainingText.SetActive (true);
+				GameObject[] spawns = GameObject.FindGameObjectsWithTag ("enemyspawn");
+				foreach(var spawn in spawns)
+				{
+					Instantiate (enemy, spawn.transform.position, spawn.transform.rotation);
+				}
+				GameObject.Find("EnemyManager").SendMessage("StartSpawning");
+				if(!hasBeenTriggered)
+				{
+					DestroyObject(flag);
+					usaFlag.transform.position = new Vector2 (16.5f, 31.49f);
+					flag = Instantiate(usaFlag);
+					hasBeenTriggered = true;
+					fence = Instantiate (verticalFence);
+				}
 			}
 		}
 	}

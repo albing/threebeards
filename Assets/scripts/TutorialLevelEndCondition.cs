@@ -14,6 +14,7 @@ public class TutorialLevelEndCondition : MonoBehaviour {
 	private bool beatLevel = false;
 
 	void Start() {
+		Shoot.killsRemaining = 20;
 		scoreText = GameObject.Find ("Score Text");
 		messageCanvas = GameObject.Find ("Message Canvas");
 		healthBar = GameObject.FindGameObjectWithTag ("healthbar");
@@ -23,7 +24,7 @@ public class TutorialLevelEndCondition : MonoBehaviour {
 	// TODO: OnPauseGame event: 
 	// http://answers.unity3d.com/questions/7544/how-do-i-pause-my-game.html
 	void Update() {
-		if(Shoot.score >= 20 && !halted)
+		if(Shoot.score >= 26 && !halted)
 		{
 			halted = !halted;
 			beatLevel = true;

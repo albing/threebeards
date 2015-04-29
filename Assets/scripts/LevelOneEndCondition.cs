@@ -16,6 +16,7 @@ public class LevelOneEndCondition : MonoBehaviour {
 	private bool beatLevel = false;
 	
 	void Start() {
+		Shoot.killsRemaining = 50;
 		scoreText = GameObject.Find ("Score Text");
 		unhalt ();
 	}
