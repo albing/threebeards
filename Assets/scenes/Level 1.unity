@@ -15688,6 +15688,7 @@ GameObject:
   - 82: {fileID: 1429200256}
   - 114: {fileID: 1429200257}
   - 95: {fileID: 1429200258}
+  - 114: {fileID: 1429200259}
   m_Layer: 13
   m_Name: Boss
   m_TagString: boss
@@ -15876,6 +15877,17 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1429200259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1429200249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a1eb860e6b940f3b1ae35c381f5e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 6
   rotationSpeed: 0
   acceleration: 10
