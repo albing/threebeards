@@ -62,8 +62,8 @@ TextureImporter:
         y: 155
         width: 72
         height: 71
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .657298803, y: .336245269}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: body
       rect:
@@ -72,8 +72,8 @@ TextureImporter:
         y: 151
         width: 85
         height: 75
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .469046384, y: .11383301}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tongue
       rect:
@@ -82,8 +82,8 @@ TextureImporter:
         y: 174
         width: 53
         height: 52
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .571743965, y: .661916018}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: boobs
       rect:
@@ -92,8 +92,8 @@ TextureImporter:
         y: 168
         width: 53
         height: 52
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .373995215, y: .512842894}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: foot
       rect:
@@ -102,8 +102,8 @@ TextureImporter:
         y: 155
         width: 61
         height: 65
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .526715398, y: .754886806}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: arm
       rect:
@@ -112,8 +112,8 @@ TextureImporter:
         y: 158
         width: 52
         height: 68
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .823832572, y: .675741553}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bull head
       rect:
@@ -122,8 +122,8 @@ TextureImporter:
         y: 4
         width: 153
         height: 129
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .681869626, y: .289471149}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bull body
       rect:
@@ -132,8 +132,8 @@ TextureImporter:
         y: 8
         width: 215
         height: 160
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .6698035, y: .491652161}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: leg smallest
       rect:
@@ -142,8 +142,8 @@ TextureImporter:
         y: 22
         width: 38
         height: 55
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .529290438, y: .771177411}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: leg biggest
       rect:
@@ -152,8 +152,8 @@ TextureImporter:
         y: 4
         width: 60
         height: 145
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .548232019, y: .896089315}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: leg small
       rect:
@@ -162,8 +162,8 @@ TextureImporter:
         y: 6
         width: 47
         height: 73
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .2941401, y: .787169218}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: leg big
       rect:
@@ -172,8 +172,8 @@ TextureImporter:
         y: 4
         width: 56
         height: 105
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .388416827, y: .832111597}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
