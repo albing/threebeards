@@ -14,6 +14,8 @@ public class TutorialLevelEndCondition : MonoBehaviour {
 	private bool beatLevel = false;
 
 	void Start() {
+		Shoot.totalEnemiesHit = 0;
+		Shoot.totalShotsTaken = 0;
 		Shoot.killsRemaining = 20;
 		scoreText = GameObject.Find ("Score Text");
 		messageCanvas = GameObject.Find ("Message Canvas");

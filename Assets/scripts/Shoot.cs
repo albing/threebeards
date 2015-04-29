@@ -7,6 +7,8 @@ public class Shoot : MonoBehaviour {
 	public static int killsRemaining = 50;
 	public static GameObject KillsRemainingText;
 	public static int bossHealth = 15;
+	public static int totalShotsTaken = 0;
+	public static int totalEnemiesHit = 0;
 
 	void Start () {
 		startTime = Time.time;
@@ -23,6 +25,7 @@ public class Shoot : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		if(other.gameObject.tag == "enemy") 
 		{
+			totalEnemiesHit++;
 			Destroy (other.gameObject);
 			Destroy (this.gameObject);
 			score++;
@@ -33,8 +36,8 @@ public class Shoot : MonoBehaviour {
 			Destroy (this.gameObject);
 		else if (other.gameObject.tag == "boss") 
 		{
+			totalEnemiesHit++;
 			other.gameObject.SendMessage("DoDamage",7.0);
-
 			Destroy(this.gameObject);
 		}
 	}

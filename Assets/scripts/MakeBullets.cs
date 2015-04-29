@@ -8,6 +8,7 @@ public class MakeBullets : MonoBehaviour {
 
 	public void fire()
 	{
+		Shoot.totalShotsTaken++;
 		Instantiate (bullet, transform.position, transform.rotation);
 		AudioSource.PlayClipAtPoint (fireSound, transform.position);
 	}
