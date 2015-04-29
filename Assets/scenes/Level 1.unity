@@ -1310,7 +1310,7 @@ Transform:
   m_PrefabInternal: {fileID: 899597006}
   m_GameObject: {fileID: 100143820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.6000004, y: -61.5, z: 0}
+  m_LocalPosition: {x: -19.2000008, y: -62.5, z: 0}
   m_LocalScale: {x: 5.49221802, y: 5.49221611, z: 5.49221611}
   m_Children:
   - {fileID: 798294675}
@@ -9843,11 +9843,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -19.6000004
+      value: -19.2000008
       objectReference: {fileID: 0}
     - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -61.5
+      value: -62.5
       objectReference: {fileID: 0}
     - target: {fileID: 474124, guid: 6d9b9053c9f0c48ffbd7ae18f36f0076, type: 2}
       propertyPath: m_LocalPosition.z
@@ -15225,7 +15225,7 @@ Rigidbody2D:
   m_LinearDrag: .75999999
   m_AngularDrag: 5
   m_GravityScale: 0
-  m_FixedAngle: 0
+  m_FixedAngle: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -15345,6 +15345,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62a1eb860e6b940f3b1ae35c381f5e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 6
+  rotationSpeed: 0
+  acceleration: 10
+  kickBack: 15
+  jumpDistance: 7.5
+  damage: 10
 --- !u!1 &1431475304
 GameObject:
   m_ObjectHideFlags: 0
