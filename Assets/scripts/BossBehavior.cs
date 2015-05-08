@@ -70,7 +70,7 @@ public class BossBehavior : MonoBehaviour {
 	
 	void OnTriggerEnter2D(Collider2D other) 
 	{
-		if (other.name == "Cowboy") {
+		if (other.tag == "Player") {
 			giveDamage(damage, kickBack);
 		}
 	}
