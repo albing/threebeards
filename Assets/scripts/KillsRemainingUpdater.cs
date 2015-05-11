@@ -9,7 +9,7 @@ public class KillsRemainingUpdater : MonoBehaviour {
 
 	void Start () {
 		instruction = GetComponent<Text> ();
-		KillsRemainingText = GameObject.Find ("Canvas/KillsRemainingText");
+		KillsRemainingText = GameObject.Find ("KillsRemainingText");
 		KillsRemainingText.SetActive (false);
 	}
 	
